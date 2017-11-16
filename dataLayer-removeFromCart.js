@@ -4,11 +4,11 @@ dataLayer.push({
   'ecommerce': {
     'remove': {                               // 'remove' actionFieldObject measures.
       'products': [{                          //  removing a product to a shopping cart.
-				'name': 'Lotten',
+        'name': 'Lotten',
         'id': 'ticket-subscription-001',
-				'price': '160',											// update if price changes
-				'category': 'Ticket',
-				'quantity': INTEGER
+        'price': '160',											// update if price changes
+        'category': 'Ticket',
+        'quantity': INTEGER
       }]
     }
   }

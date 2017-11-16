@@ -6,10 +6,10 @@ dataLayer.push({
 			'actionField': {'step': 1, 'option': 'AG BankId'},
 			'products': [{
 				'name': 'Lotten',												// Name or ID is required.
-        'id': 'ticket-subscription-001',
-        'price': '160',													// Update if price changes
-        'category': 'Ticket',
-        'quantity': INTEGER											
+				'id': 'ticket-subscription-001',
+				'price': '160',													// Update if price changes
+				'category': 'Ticket',
+				'quantity': INTEGER											
 			}]
 		}
   }

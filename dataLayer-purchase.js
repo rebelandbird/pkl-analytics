@@ -12,7 +12,7 @@ dataLayer.push({
         'shipping': '0'
       },
       'products': [{														// List of productFieldObjects.
-				'name': 'Lotten',												// Name or ID is required.
+        'name': 'Lotten',												// Name or ID is required.
         'id': 'ticket-subscription-001',
         'price': '160',													// update if price changes
         'category': 'Ticket',
