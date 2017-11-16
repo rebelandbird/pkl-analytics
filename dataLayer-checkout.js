@@ -1,13 +1,19 @@
-// 
+// Run for each step in checkout process, counting up 'step' in
+// 'actionField' for each one. If the information is not sensitive,
+// also provide a value for 'option' that represents what the user 
+// chose in that step.
 dataLayer.push({
 	'event': 'checkout',
 	'ecommerce': {
 		'checkout': {
-			'actionField': {'step': 1, 'option': 'AG BankId'},
+			'actionField': {
+				'step': INTEGER,
+				'option': 'AG BankId'
+			},
 			'products': [{
 				'name': 'Lotten',												// Name or ID is required.
 				'id': 'ticket-subscription-001',
-				'price': NUMBER,													// Update if price changes
+				'price': '160',													// Update if price changes
 				'category': 'Ticket',
 				'quantity': INTEGER											
 			}]
@@ -21,7 +27,10 @@ dataLayer.push({
 	'event': 'checkoutOption',
 	'ecommerce': {
 		'checkout_option': {
-			'actionField': {'step': 1, 'option': 'AG Blankett'}
+			'actionField': {
+				'step': INTEGER, 
+				'option': 'AG Blankett'
+			}
 		}
 	}
 });

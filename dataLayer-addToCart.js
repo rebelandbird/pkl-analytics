@@ -8,7 +8,7 @@ dataLayer.push({
 			'products': [{                        //  adding a product to a shopping cart.
 				'name': 'Lotten',
 				'id': 'ticket-subscription-001',
-				'price': NUMBER,											// update if price changes
+				'price': '160',											// update if price changes
 				'category': 'Ticket',
 				'quantity': INTEGER
 			}]
