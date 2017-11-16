@@ -7,7 +7,7 @@ dataLayer.push({
 			'products': [{
 				'name': 'Lotten',												// Name or ID is required.
 				'id': 'ticket-subscription-001',
-				'price': '160',													// Update if price changes
+				'price': NUMBER,													// Update if price changes
 				'category': 'Ticket',
 				'quantity': INTEGER											
 			}]

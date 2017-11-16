@@ -8,13 +8,13 @@ dataLayer.push({
 				'id': transactionId,                  	// Transaction ID. Required for purchases and refunds.
 				'affiliation': 'postkodlotteriet.se',
 				'revenue': NUMBER,                     	// Total transaction value (incl. tax and shipping)
-				'tax': MOMS,
+				'tax': NUMBER,
 				'shipping': '0'
 			},
 			'products': [{														// List of productFieldObjects.
 				'name': 'Lotten',												// Name or ID is required.
 				'id': 'ticket-subscription-001',
-				'price': '160',													// update if price changes
+				'price': NUMBER,													// update if price changes
 				'category': 'Ticket',
 				'quantity': INTEGER											// Optional fields may be omitted or set to empty string.
 			}]

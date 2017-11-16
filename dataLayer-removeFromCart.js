@@ -6,7 +6,7 @@ dataLayer.push({
 			'products': [{                          //  removing a product to a shopping cart.
 				'name': 'Lotten',
 				'id': 'ticket-subscription-001',
-				'price': '160',											// update if price changes
+				'price': NUMBER,											// update if price changes
 				'category': 'Ticket',
 				'quantity': INTEGER
 			}]
