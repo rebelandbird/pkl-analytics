@@ -12,7 +12,7 @@ dataLayer.push({
 				'quantity': INTEGER											
 			}]
 		}
-  }
+	}
 })
 
 // Alternative way of adding information about the checkout
