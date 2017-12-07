@@ -7,8 +7,7 @@ dataLayer.push({
 		'add': {                                // 'add' actionFieldObject measures.
 			'products': [{                        //  adding a product to a shopping cart.
 				'name': 'Lotten',
-				'id': 'ticket-subscription-001',
-				'price': '160',											// update if price changes
+				'price': '165',											// update if price changes
 				'category': 'Ticket',
 				'quantity': INTEGER
 			}]

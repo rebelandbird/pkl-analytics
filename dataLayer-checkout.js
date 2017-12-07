@@ -5,15 +5,15 @@
 dataLayer.push({
 	'event': 'checkout',
 	'ecommerce': {
+		'currencyCode': 'SEK',
 		'checkout': {
 			'actionField': {
 				'step': INTEGER,
 				'option': 'AG BankId'
 			},
 			'products': [{
-				'name': 'Lotten',												// Name or ID is required.
-				'id': 'ticket-subscription-001',
-				'price': '160',													// Update if price changes
+				'name': 'Lotten',												// 'name or 'id' (SKU) is required.
+				'price': '165',													// Update if price changes
 				'category': 'Ticket',
 				'quantity': INTEGER											
 			}]
